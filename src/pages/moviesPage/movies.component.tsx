@@ -63,7 +63,7 @@ const MoviesComponent = () => {
                   title={movie.title}
                   year={movie.release_date ? movie.release_date.slice(0, 4) : '0000'}
                   rate={movie.vote_average}
-                  imageUrl={movie.poster_path != null ? getImgPathUrl + movie.poster_path : '/src/assets/no-post-img.png'}
+                  imageUrl={movie.poster_path != null ? getImgPathUrl + movie.poster_path : '/public/no-post-img.png'}
                   alt={movie.title}
                   type="movie"
                   id={movie.id}

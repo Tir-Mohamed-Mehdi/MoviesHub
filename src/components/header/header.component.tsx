@@ -6,7 +6,7 @@ const HeaderComponent = () => {
     <header className="app-header">
       <img
         className="app-header-logo"
-        src="/src/assets/full-logo.svg"
+        src="/public/full-logo.svg"
         alt="the app logo"
       />
 

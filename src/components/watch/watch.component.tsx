@@ -6,7 +6,6 @@ const WatchComponent = () => {
 
   return (
     <>
-      {id}
       <iframe
         className="video-player"
         src={`https://vidsrc.to/embed/movie/${id}`}
