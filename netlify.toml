@@ -3,6 +3,21 @@
   publish = "build"          # Adjust this based on your build output directory
 
 [[redirects]]
+  from = "/movies/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/series/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/watch/*"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
