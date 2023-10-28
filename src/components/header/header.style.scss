@@ -1,0 +1,29 @@
+@import '../../styles/colors.style';
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-header-logo {
+  width: 150px;
+}
+
+.app-links-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+
+  color: white;
+}
+
+.app-link {
+  font-weight: 500;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.active {
+  color: $main_color_01;
+}

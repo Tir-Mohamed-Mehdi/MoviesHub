@@ -1,0 +1,52 @@
+@import '../../styles/colors.style';
+.card_image {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.card-container {
+  text-align: center;
+  color: white !important;
+  width: calc(20% - 8px);
+  width: 250px;
+  background-color: $main_background_color_02 !important;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.card-container:active {
+  background-color: $main_background_color_03 !important;
+}
+
+.card-title {
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
+  color: $main_color_01;
+  margin-top: 19px;
+}
+
+.card-year {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.card-rate {
+  color: rgb(150, 150, 150);
+  font-size: 12px;
+  font-weight: 100;
+}
+
+@media (max-width: 500px) {
+  .card_image {
+    width: 100%;
+  }
+  .card-container {
+    text-align: center;
+    color: white !important;
+    width: 100%;
+    background-color: $main_background_color_02 !important;
+    cursor: pointer;
+    transition: all 200ms;
+  }
+}
